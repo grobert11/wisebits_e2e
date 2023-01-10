@@ -6,7 +6,7 @@
 ## **to run tests in docker type**
 
     docker build -t tests_run . 
-    docker run -i -t test_run /bin/bash
+    docker run -i -t tests_run /bin/bash
     pytest tests/test_w3school.py
 
 #Note:
